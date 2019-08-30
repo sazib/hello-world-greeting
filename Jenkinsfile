@@ -1,4 +1,4 @@
-node('maven-build-slave-0.1'){
+node('docker'){
   stage('Poll'){
     checkout scm
   }
